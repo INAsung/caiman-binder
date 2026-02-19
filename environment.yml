@@ -1,0 +1,13 @@
+name: caiman-env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - caiman
+  - numpy<2
+  - jupyterlab
+  - ipympl
+  - ipykernel
+  - pip
+  - pip:
+      - gdown
